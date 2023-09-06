@@ -1,0 +1,56 @@
+
+.app__bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__wrapper_info {
+  flex: 1;
+  
+}
+
+.app__laurel-item_content img {
+    width: 120px;
+    height: 120px
+}
+
+.app__wrapper_img {
+  flex: 1;  
+  height: 100vh;
+}
+
+.app__wrapper_img  img {
+  width: 400px;
+  height: auto;
+  object-fit: cover;
+}
+.app__laurels_awards {
+  display: flex;
+justify-content: flex-start;
+align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.app__laurel-item_content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 230px;
+  height: 150px;
+  
+}
+
+.app_laurel-item_paragraph {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+}
+
+.app_laurel-item_paragraph p {
+  margin-bottom: 1rem;
+}
+
+
